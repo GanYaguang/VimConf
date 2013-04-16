@@ -325,7 +325,7 @@ set novb t_vb=
   set laststatus=2
 
   function! CurDir()
-     let curdir = substitute(getcwd(), '/home/easwy/', "~/", "g")
+     let curdir = substitute(getcwd(), '/home/gyg/', "~/", "g")
      return curdir
   endfunction
 
