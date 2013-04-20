@@ -1,17 +1,15 @@
-Easwy's Share
+Yaguang's Share
 =============
 
-This repository contains many files shared by Easwy Yang.
+This repository contains many files shared by Gan Yaguang.
 
 Contents
 ---------
 
-* [conf] --- some configuration files Easwy used
-* [scripts] --- some scripts Easwy used
+* [conf] --- some configuration files
+* [scripts] --- some scripts
 * [vim] --- contain files about vim, such as vimrc and .vim directory
 
-Contact Me
-----------
+Base on Easwy's Share.[Easwy's Blog](http://easwy.com/)
 
-You can contact me by leave a comment on [Easwy's Blog](http://easwy.com/)
 
