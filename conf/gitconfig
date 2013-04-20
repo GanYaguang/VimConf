@@ -1,13 +1,19 @@
 [user]
-	email = easwy.mail@gmail.com
-	name = Easwy Yang
+	name = gyg
+	email = ganyaguang@gmail.com
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	pl = pull
+	ps = push
+	last = log -1 HEAD
+	unstage = reset HEAD --
+	df = diff
+	dfl = diff HEAD~
+	dfc = diff --cached
 [core]
 	editor = vim
-[merge]
-	tool = vimdiff
-[alias]
-	st = status
-	co = checkout
-	ci = commit
-[http]
-	sslVerify = false
+[color]
+	ui = auto
