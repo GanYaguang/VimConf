@@ -944,5 +944,7 @@ let g:vimrc_loaded = 1
  "
  " see :h vundle for more details or wiki for FAQ
  " NOTE: comments after Bundle command are not allowed..
- 
- Bundle 'minibufexplorerpp' 
+
+ " gyg plugin
+ Bundle 'minibufexplorerpp'
+ Bundle 'rosenfeld/conque-term'
