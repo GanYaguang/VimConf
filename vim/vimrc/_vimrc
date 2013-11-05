@@ -906,6 +906,11 @@ nmap <C-@>d :cs find d <C-R>=expand("<cword>")<CR><CR>
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:vimrc_loaded = 1
 
+"disable arrow key
+noremap <Up> <nop>
+noremap <Down> <nop>
+noremap <Left> <nop>
+noremap <Right> <nop>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Vundle settings
