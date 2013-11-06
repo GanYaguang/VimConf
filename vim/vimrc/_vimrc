@@ -866,7 +866,7 @@ nmap <C-@>d :cs find d <C-R>=expand("<cword>")<CR><CR>
    noremap <Leader>dm mzHmx:%s/<C-V><cr>//ge<cr>'xzt'z:delm x z<cr>
 
    "Paste toggle - when pasting something in, don't indent.
-   set pastetoggle=<F3>
+   set pastetoggle=<F4>
 
    "Remove indenting on empty lines
    "map <F2> :%s/\s*$//g<cr>:noh<cr>''
@@ -912,6 +912,8 @@ noremap <Down> <nop>
 noremap <Left> <nop>
 noremap <Right> <nop>
 
+nnoremap <silent> <F3> :Grep<CR>
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Vundle settings
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -932,9 +934,12 @@ noremap <Right> <nop>
  Bundle 'Lokaltog/vim-easymotion'
  Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
  Bundle 'tpope/vim-rails.git'
+ 
  " vim-scripts repos
  Bundle 'L9'
  Bundle 'FuzzyFinder'
+ Bundle 'grep.vim'
+ 
  " non github repos
  Bundle 'git://git.wincent.com/command-t.git'
  " ...
