@@ -938,7 +938,6 @@ nnoremap <silent> <F3> :Grep<CR>
  " vim-scripts repos
  Bundle 'L9'
  Bundle 'FuzzyFinder'
- Bundle 'grep.vim'
  
  " non github repos
  Bundle 'git://git.wincent.com/command-t.git'
@@ -956,6 +955,21 @@ nnoremap <silent> <F3> :Grep<CR>
  " NOTE: comments after Bundle command are not allowed..
 
  " gyg plugin
- "Bundle 'minibufexplorerpp'
  Bundle 'techlivezheng/vim-plugin-minibufexpl'
  Bundle 'rosenfeld/conque-term'
+ Bundle 'grep.vim'
+ Bundle 'a.vim'
+ Bundle 'The-NERD-Commenter'
+ Bundle 'The-NERD-tree'
+ Bundle 'genutils'
+ Bundle 'lookupfile'
+ Bundle 'ShowMarks'
+ Bundle 'Lokaltog/vim-powerline'
+ Bundle 'SuperTab'
+ Bundle 'surround.vim'
+ Bundle 'winmanager'
+ Bundle 'Tagbar'
+ Bundle 'taglist.vim'
+ Bundle 'bufexplorer.zip'
+ Bundle 'FSwitch'
+ Bundle 'multvals.vim'
