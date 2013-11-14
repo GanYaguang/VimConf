@@ -747,15 +747,22 @@ endfunction
    nmap <C-W><C-F> :FirstExplorerWindow<cr>
    nmap <C-W><C-B> :BottomExplorerWindow<cr>
    "nmap <silent> <leader>wm :WMToggle<cr>
-   nmap <F3> :WMToggle<cr>      “映射F3键为开关Winmanager
+   nmap <F4> :WMToggle<cr>      “映射F4键为开关Winmanager
    autocmd BufWinEnter \[Buf\ List\] setl nonumber
+
+   """"""""""""""""""""""""""""""
+   " command-t setting
+   """"""""""""""""""""""""""""""
+   nmap <silent> <F6> :CommandT<cr>
 
    """"""""""""""""""""""""""""""
    " NERDTree setting
    """"""""""""""""""""""""""""""
-   nmap <silent> <leader>tt :NERDTreeToggle<cr>
+   nmap <silent> <F7> :NERDTreeToggle<cr>
 
-   "对NERD_commenter的设置
+   """"""""""""""""""""""""""""""
+   "NERD_commenter setting
+   """"""""""""""""""""""""""""""
    let NERDShutUp=1
    "支持单行和多行的选择，//格式
    "map <c-h> ,c<space>
@@ -1023,7 +1030,7 @@ noremap <Down> <nop>
 noremap <Left> <nop>
 noremap <Right> <nop>
 
-nnoremap <silent> <F4> :Grep<CR>
+nnoremap <silent> <F3> :Grep -R<CR>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Vundle settings
