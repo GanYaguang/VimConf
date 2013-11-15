@@ -332,8 +332,6 @@ set novb t_vb=
   "Format the statusline
   "set statusline=\ %F%m%r%h\ %w\ \ CWD:\ %r%{CurDir()}%h\ \ \ Line:\ %l/%L:%c
 
-
-
 """"""""""""""""""""""""""""""
 " Visual
 """"""""""""""""""""""""""""""
@@ -1091,3 +1089,5 @@ nnoremap <silent> <F3> :Grep -R<CR>
  Bundle 'bufexplorer.zip'
  Bundle 'FSwitch'
  Bundle 'multvals.vim'
+ Bundle 'DoxygenToolkit.vim'
+ Bundle 'javacomplete'
