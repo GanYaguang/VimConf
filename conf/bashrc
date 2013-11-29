@@ -131,4 +131,5 @@ alias tmux2='tmux -f ~/VimConf/scripts/android.tmux.conf attach'
 
 [ -z "$TMUX" ] && export TERM=xterm-256color
 
-export ANDROID_HOME=$ANDROID_SRC
+#export ANDROID_HOME=$ANDROID_SRC
+export ANDROID_HOME=/home/gyg/workspace/tools/adt-bundle-linux-x86_64-20131030/sdk
