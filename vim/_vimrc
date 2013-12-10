@@ -1091,3 +1091,4 @@ nnoremap <silent> <F3> :Grep -R<CR>
  Bundle 'multvals.vim'
  Bundle 'DoxygenToolkit.vim'
  Bundle 'javacomplete'
+ Bundle 'EasyMotion'
