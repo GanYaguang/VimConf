@@ -739,7 +739,7 @@ endfunction
    """"""""""""""""""""""""""""""
    " winmanager setting
    """"""""""""""""""""""""""""""
-   let g:winManagerWindowLayout = "BufExplorer,FileExplorer|TagList"
+   let g:winManagerWindowLayout = "FileExplorer|TagList"
    let g:winManagerWidth = 35
    let g:defaultExplorer = 0
    nmap <C-W><C-F> :FirstExplorerWindow<cr>
@@ -1086,9 +1086,8 @@ nnoremap <silent> <F3> :Grep -R<CR>
  Bundle 'winmanager'
  Bundle 'Tagbar'
  Bundle 'taglist.vim'
- Bundle 'bufexplorer.zip'
  Bundle 'FSwitch'
  Bundle 'multvals.vim'
  Bundle 'DoxygenToolkit.vim'
  Bundle 'javacomplete'
- Bundle 'EasyMotion'
+ Bundle 'UltiSnips'
