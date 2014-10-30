@@ -1091,3 +1091,5 @@ nnoremap <silent> <F3> :Grep -R<CR>
  Bundle 'DoxygenToolkit.vim'
  Bundle 'javacomplete'
  Bundle 'UltiSnips'
+ Bundle 'xolox/vim-misc'
+ Bundle 'xolox/vim-session'
