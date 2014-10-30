@@ -106,7 +106,19 @@ fi
 setterm -blength 0
 
 # use vi mode
-#set -o vi
+set -o vi
+#清屏
+bind -m vi-insert '\c-l':clear-screen
+#进入vi命令模式
+bind -m vi-insert '\c-x':vi-movement-mode
+#跳到末尾
+bind -m vi-insert '\c-e':end-of-line
+#跳到开头
+bind -m vi-insert '\c-a':beginning-of-line
+#向后一个字符
+bind -m vi-insert '\c-b':backward-char
+#向前一个字符
+bind -m vi-insert '\c-f':forward-char
 
 # Useful alias
 alias .ee='vi ~/.bashrc'
@@ -122,10 +134,12 @@ export PATH=~/bin:$PATH
 export WP=~/workspace
 export JB=~/workspace/jb
 export J2=~/workspace/jb2
+export J3=~/workspace/vanzo
 export ANDROID_SRC=$J2
 
 alias cdj='cd $JB'
 alias cd2='cd $J2'
+alias cd3='cd $J3'
 
 alias tmux2='tmux -f ~/VimConf/scripts/android.tmux.conf attach'
 
